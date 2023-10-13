@@ -1,0 +1,106 @@
+:root {
+    --main: #ff8a6b;
+    --maincolor:#2eb2be;
+    --col: #c6e2e3;
+    --green: #2da7b4;
+    --gray: #434a5c;
+    --grad: radial-gradient( at top center,
+    #37577d,
+    var(--blue) 40%);
+    --bg: navy;
+    --font-famiy: 'Courgette', cursive;
+    --font: 'Roboto', sans-serif;
+ }
+
+ * {box-sizing: border-box;}
+
+ body {
+     margin: 0;
+     padding: 0;
+     font-family: var(--font);
+     background-color: var(--maincolor);
+ 
+ }
+
+ a {
+    text-decoration: none;
+}
+ 
+.container {
+    margin: 0 auto;
+    width: 100%;
+    border: 1px solid yellow;
+} 
+
+.head {
+    /* background-color: #ff8a6b; */
+    background-color: navy;
+}
+
+h1 {
+    margin: 5px;
+    font-family: var(--font-famiy); 
+    color: var(--col);
+}
+
+#navItemHead {
+    margin-top: 15px;
+    padding: 5px;
+    color: var(--maincolor);
+    /* background-color: var(--gray); */
+    /* background-color: rgb(238, 175, 16); */
+    border-radius: 15%;
+    border: 2px red;
+}
+
+a:hover {
+    background-color:#434a5c;
+ }
+
+#navItem {
+    padding: 5px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: space-between;
+    color: var(--col);
+    background-color: var(--main);
+    border-radius: 10%;
+}
+
+#btnLog {
+    padding: 0;
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    justify-content: left;
+    color: navy;
+    background-color: var(--green);
+    /* background-color: rgb(238, 175, 16); */
+}
+
+#navJoin {
+    font-weight: 900;
+    margin: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--gray);
+    /* background-color: var(--col); */
+    
+}
+
+#exitBtn {
+    margin: 5px;
+    padding: auto;
+    font-size: 10px;
+}
+
+.h1offers {
+    margin-top: 50px;
+    color: var(--main);
+}
+
+.pmain{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    color: navy;
+}
